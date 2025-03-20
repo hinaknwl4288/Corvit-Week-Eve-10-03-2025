@@ -6,29 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        @font-face {
+            font-family: 'scary';
+            src: url("assets/fonts/ScaryGraffitiDemoRegular.ttf");
+        }
+
+
+        .heading {
+            font-size: 3rem;
+            font-weight: bold;
+            font-family: 'scary';
+        }
+
         .parent {
             position: relative;
             width: 100%;
             height: 500px;
         }
-        .img_1{
+
+        .img_1 {
             position: absolute;
             right: 0px;
             height: 650px;
         }
-        .img_2{
+
+        .img_2 {
             position: absolute;
             right: 40px;
             width: 600px;
         }
-
-        .heading{
-            font-size: 3rem;
-            font-weight: bold;
-        }
-        
     </style>
 </head>
+
 <body>
     <div class="heading"> Burgers That Love The Earth</div>
     <div class="parent">
@@ -36,7 +45,7 @@
         <img class="img_2" src="assets/images/header.png" alt="">
     </div>
 
-    
+
 
 
 </body>
