@@ -19,3 +19,15 @@ body{
     color: #FFA453;
     font-weight: 600;
 }
+.hotItems_heading{
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+
+}
+.hotItems_subheading{
+    color: white;
+    font-size: 1.2rem;
+
+}
