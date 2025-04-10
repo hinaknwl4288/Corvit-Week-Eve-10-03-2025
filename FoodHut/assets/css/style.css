@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "SofiaProBold";
+    src: url("../fonts/Sofia\ Pro\ Bold\ Az.otf");
+}
+@font-face {
+    font-family: "SofiaProRegular";
+    src: url("../fonts/Sofia\ Pro\ Regular\ Az.otf");
+}
+
+.trust-us{
+    background-color: rgba(245, 71, 72, 0.3);
+}
+
+.heart-trust{
+    width: 25px;
+    height: 25px;
+    background-color: rgba(245, 71, 72, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading-1-color{
+    color: rgba(245, 71, 72, 1);
+}
+.heading-2-color{
+    color: #FDC55E;
+}
+.heading{
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: "SofiaProBold";
+}
+.sub-heading{
+        font-size: 1.2rem;
+        font-family: "SofiaProRegular";
+
+}
+.search-input{
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+.search-icon{
+    background-color: #FDC55E;
+    width: 40px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
