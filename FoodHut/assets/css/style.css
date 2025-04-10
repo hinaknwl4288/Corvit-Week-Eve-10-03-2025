@@ -49,3 +49,9 @@
     align-items: center;
     color: white;
 }
+
+@media (max-width:786px){
+    .heading{
+        font-size: 3rem;
+    }
+}
